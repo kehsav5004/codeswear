@@ -14,12 +14,9 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
-      {
-        protocol: 'https',
-        hostname: '**',
-      },
     ],
-    unoptimized: true, // Temporarily disable optimization for debugging
+    // Keep rendering identical to your current visuals
+    unoptimized: true,
   },
 };
 

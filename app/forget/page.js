@@ -120,7 +120,7 @@ export default function ForgotPasswordPage() {
           {step === 1 && (
             <>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Don't worry! Just enter your email below and we'll send you an OTP
+                Don&apos;t worry! Just enter your email below and we&apos;ll send you an OTP
                 to reset your password.
               </p>
 
